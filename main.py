@@ -8,8 +8,8 @@ from pyspark.sql import SparkSession
 import boto3
 import pandas as pd
 
-aws_access_key_id = 'AKIAR4WISA2TVKQGYDF7'
-aws_secret_access_key = 'Zpz0LatqesoXDoRnUN7vkVzHfx3eLT47REnzw79X'
+aws_access_key_id = 'Redacted'
+aws_secret_access_key = 'Redacted'
 s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
 bucket_name = 'movielens-pyspark'
 
